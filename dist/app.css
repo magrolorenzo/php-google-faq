@@ -128,6 +128,11 @@ main .container .faq-wrapper .answer {
   color: rgba(0, 0, 0, 0.87);
 }
 
+main .container .faq-wrapper .answer a {
+  color: #3367d6;
+  cursor: pointer;
+}
+
 footer {
   height: 45px;
   width: 100%;
