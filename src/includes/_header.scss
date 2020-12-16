@@ -2,4 +2,81 @@ header{
     height: 94px;
     width: 100%;
     color: $titles_color;
+    border-bottom: 1px solid $header_border_color;
+
+    .top-header{
+        height: 64px;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-title{
+            width: 50%;
+            height: 24px;
+            padding-left: 12px;
+            display: flex;
+            align-items: center;
+
+            h2{
+                padding-left: 4px;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        .user{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 124px;
+            padding-left: 30px;
+            padding-right: 6px;
+            div{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            .g-apps{
+                padding: 8px;
+                display: flex;
+                i{
+                    margin: auto;
+                }
+            }
+            .avatar-container{
+                padding: 4px;
+                img{
+                    border-radius: 50%;
+
+                }
+            }
+        }
+    }
+
+    .bottom-header{
+        height: 30px;
+        padding-left: 20px;
+
+        ul{
+            height: 100%;
+            display: flex;
+            list-style: none;
+
+            li{
+                height: 100%;
+                margin-right: 42px;
+                font-size: 15px;
+                font-weight: 500;
+                cursor: pointer;
+
+            }
+            .current-li{
+                color: $current_li_color;
+                border-bottom: 3px solid $current_li_color;
+            }
+        }
+    }
 }

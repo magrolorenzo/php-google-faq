@@ -90,6 +90,7 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
        <link rel="stylesheet" href="dist/app.css">
        <title>
            Google FAQ
@@ -97,7 +98,38 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
     </head>
     <body>
 
-        <header></header>
+        <header>
+            <!-- Top Header -->
+            <div class="top-header">
+                <div class="header-title">
+                    <div class="logo-container">
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google-logo">
+                    </div>
+                    <h2>
+                        Privacy e termini
+                    </h2>
+                </div>
+                <div class="user">
+                    <div class="g-apps">
+                        <i class="fas fa-th"></i>
+                    </div>
+                    <div class="avatar-container">
+                        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu864JI54Jaw7u_PK6hy0K0YqZ12XRyQHOtcNpSqIw=s32-c-mo" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Header -->
+            <div class="bottom-header">
+                <ul>
+                    <li>Introduzione</li>
+                    <li>Nomre sulla privacy</li>
+                    <li>Termini di servizio</li>
+                    <li>Tecnologie</li>
+                    <li class="current-li">Domande frequenti</li>
+                </ul>
+            </div>
+        </header>
 
         <main>
             <div class="container">

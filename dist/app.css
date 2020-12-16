@@ -9,6 +9,87 @@ header {
   height: 94px;
   width: 100%;
   color: #5f6368;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+header .top-header {
+  height: 64px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .top-header .header-title {
+  width: 50%;
+  height: 24px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+header .top-header .header-title h2 {
+  padding-left: 4px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+header .top-header .user {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 124px;
+  padding-left: 30px;
+  padding-right: 6px;
+}
+
+header .top-header .user div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header .top-header .user .g-apps {
+  padding: 8px;
+  display: flex;
+}
+
+header .top-header .user .g-apps i {
+  margin: auto;
+}
+
+header .top-header .user .avatar-container {
+  padding: 4px;
+}
+
+header .top-header .user .avatar-container img {
+  border-radius: 50%;
+}
+
+header .bottom-header {
+  height: 30px;
+  padding-left: 20px;
+}
+
+header .bottom-header ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+}
+
+header .bottom-header ul li {
+  height: 100%;
+  margin-right: 42px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+header .bottom-header ul .current-li {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
 }
 
 main .container {
