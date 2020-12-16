@@ -1,0 +1,20 @@
+.faq-wrapper{
+
+        .question{
+            font-family:  sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+            padding-top: 64px;
+            color: $questions_color;
+        }
+
+        .answer{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-top: 20px;
+            margin: 10px 0;
+            color: $answers_color;
+        }
+}

@@ -90,7 +90,7 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="dis/app.css">
+       <link rel="stylesheet" href="dist/app.css">
        <title>
            Google FAQ
         </title>
@@ -102,8 +102,33 @@ Una volta che siamo riusciti ad ottenere un buon risultato con array e html+php 
 
         <main>
             <div class="container">
+                <!-- Cicla array delle FAQ e crea un div per ogniuna -->
                 <?php
+                    for ($i=0; $i < count($faq); $i++) {
+                ?>
 
+                <div class="faq-wrapper">
+
+                    <!-- Stampo la FAQ -->
+                    <h2 class="question">
+                        <?php echo $faq[$i]["question"]; ?>
+                    </h2>
+
+                    <!-- Stampo ogni risposta e/o pezzo di risposta in un p -->
+                    <?php
+                        foreach ($faq[$i]["answer"] as $answer) {
+                    ?>
+                    <p class="answer">
+                        <?php echo $answer; ?>
+                    </p>
+                    <?php
+                    }
+                    ?>
+
+                </div>
+
+                <?php
+                    }
                 ?>
             </div>
         </main>
