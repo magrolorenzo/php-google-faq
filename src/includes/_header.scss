@@ -3,6 +3,8 @@ header{
     width: 100%;
     color: $titles_color;
     border-bottom: 1px solid $header_border_color;
+    position: fixed;
+    background-color: white;
 
     .top-header{
         height: 64px;
@@ -18,6 +20,7 @@ header{
             display: flex;
             align-items: center;
 
+            // Titolo navbar
             h2{
                 padding-left: 4px;
                 font-size: 22px;
@@ -34,11 +37,15 @@ header{
             width: 124px;
             padding-left: 30px;
             padding-right: 6px;
+
             div{
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
+                cursor: pointer;
             }
+
+            // Icona di 9 quadratini
             .g-apps{
                 padding: 8px;
                 display: flex;
@@ -46,6 +53,8 @@ header{
                     margin: auto;
                 }
             }
+
+            // avatar utente
             .avatar-container{
                 padding: 4px;
                 img{
@@ -60,6 +69,7 @@ header{
         height: 30px;
         padding-left: 20px;
 
+        // Menu navbar
         ul{
             height: 100%;
             display: flex;
